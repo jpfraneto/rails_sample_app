@@ -45,3 +45,6 @@ end
 # gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "ruby-lsp", "~> 0.3.8", :group => :development
+
+# Use Redis for Action Cable
+gem "redis", "~> 4.0"
